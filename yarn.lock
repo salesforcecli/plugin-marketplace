@@ -764,10 +764,10 @@
   resolved "https://registry.yarnpkg.com/@oclif/linewrap/-/linewrap-1.0.0.tgz#aedcb64b479d4db7be24196384897b5000901d91"
   integrity sha512-Ups2dShK52xXa8w6iBWLgcjPJWjais6KPJQq3gQ/88AY6BXoTX+MIGFPrWQO1KLMiQfoTpcLnUwloN4brrVUHw==
 
-"@oclif/plugin-command-snapshot@^4.0.10":
-  version "4.0.10"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-command-snapshot/-/plugin-command-snapshot-4.0.10.tgz#1c55337868105cbff80ee5f4e077679ed9dc8a80"
-  integrity sha512-hGmhZb92BCI4Ck7EFqBt1Rr+hf0YZ/joZYOQ0ccXnWa/5TRt5kXO/BWSgPA9c3zmyK1h2awoJAUBdzXB+4TDWg==
+"@oclif/plugin-command-snapshot@^4.0.11":
+  version "4.0.11"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-command-snapshot/-/plugin-command-snapshot-4.0.11.tgz#96bdefba4b881506b42dc4836300323c6a44e0a5"
+  integrity sha512-PLkhDqPVOdkye7FTOA0n698j0tsdDseeSfvMvT6WubaU0wzeHrdz/bhVF1e44nhN7omXOuVliNendM83gzEfTw==
   dependencies:
     "@oclif/core" "^2.11.1"
     chalk "^4.1.2"
@@ -775,7 +775,7 @@
     lodash "^4.17.21"
     semver "^7.5.4"
     ts-json-schema-generator "^1.2.0"
-    tslib "^2.6.0"
+    tslib "^2.6.1"
 
 "@oclif/plugin-help@^5.1.19":
   version "5.1.19"
@@ -6786,10 +6786,10 @@ tslib@^1.8.1, tslib@^1.9.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2, tslib@^2.0.3, tslib@^2.1.0, tslib@^2.3.1, tslib@^2.4.1, tslib@^2.5.0, tslib@^2.5.3, tslib@^2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.0.tgz#b295854684dbda164e181d259a22cd779dcd7bc3"
-  integrity sha512-7At1WUettjcSRHXCyYtTselblcHl9PJFFVKiCAy/bY97+BPZXSQ2wbq0P9s8tK2G7dFQfNnlJnPAiArVBVBsfA==
+tslib@^2, tslib@^2.0.3, tslib@^2.1.0, tslib@^2.3.1, tslib@^2.4.1, tslib@^2.5.0, tslib@^2.5.3, tslib@^2.6.0, tslib@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.1.tgz#fd8c9a0ff42590b25703c0acb3de3d3f4ede0410"
+  integrity sha512-t0hLfiEKfMUoqhG+U1oid7Pva4bbDPHYfJNiB7BiIjRkj1pyC++4N3huJfqY6aRH6VTB0rvtzQwjM4K6qpfOig==
 
 tsutils@^3.21.0:
   version "3.21.0"
