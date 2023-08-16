@@ -1,22 +1,22 @@
 {
   "name": "@salesforce/plugin-marketplace",
-  "description": "A template repository for sf plugins",
+  "description": "Find sf plugins",
   "version": "0.0.1",
   "author": "Salesforce",
   "bugs": "https://github.com/forcedotcom/cli/issues",
   "dependencies": {
     "@oclif/core": "^2.11.7",
-    "@salesforce/core": "^4.3.7",
-    "@salesforce/kit": "^3.0.8",
+    "@salesforce/core": "^5.2.0",
+    "@salesforce/kit": "^3.0.9",
     "@salesforce/sf-plugins-core": "^3.1.14",
     "tslib": "^2"
   },
   "devDependencies": {
     "@oclif/plugin-command-snapshot": "^4.0.11",
-    "@salesforce/cli-plugins-testkit": "^4.2.8",
+    "@salesforce/cli-plugins-testkit": "^4.2.9",
     "@salesforce/dev-config": "^4.0.1",
     "@salesforce/dev-scripts": "^5.4.3",
-    "@salesforce/plugin-command-reference": "^3.0.21",
+    "@salesforce/plugin-command-reference": "^3.0.25",
     "@salesforce/prettier-config": "^0.0.3",
     "@salesforce/ts-sinon": "1.4.8",
     "@swc/core": "1.3.39",
@@ -32,18 +32,18 @@
     "eslint-plugin-header": "^3.1.1",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-jsdoc": "^43.0.5",
-    "eslint-plugin-sf-plugin": "^1.16.1",
+    "eslint-plugin-sf-plugin": "^1.16.2",
     "husky": "^7.0.4",
     "mocha": "^9.2.2",
     "nyc": "^15.1.0",
-    "oclif": "^3.9.1",
+    "oclif": "^3.11.3",
     "prettier": "^2.8.8",
     "pretty-quick": "^3.1.3",
     "shx": "0.3.4",
     "sinon": "10.0.0",
     "ts-node": "^10.9.1",
-    "typescript": "^4.9.5",
-    "wireit": "^0.9.5"
+    "typescript": "^5.1.6",
+    "wireit": "^0.10.0"
   },
   "engines": {
     "node": ">=16.0.0"
@@ -76,8 +76,9 @@
       "@salesforce/plugin-command-reference"
     ],
     "topics": {
-      "hello": {
-        "description": "Commands to say hello."
+      "plugins": {
+        "external": true,
+        "description": "Find and manage plugins"
       }
     }
   },
