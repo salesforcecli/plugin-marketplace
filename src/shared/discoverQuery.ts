@@ -5,6 +5,7 @@
  * For full license text, see LICENSE.txt file in the repo root or https://opensource.org/licenses/BSD-3-Clause
  */
 import got from 'got';
+import { ProxyAgent } from 'proxy-agent';
 
 export type NpmInfo = {
   name: string;
@@ -31,15 +32,16 @@ export type SearchInfo = {
 export type DiscoverResult = NpmInfo & StarInfo & { date: string };
 
 type QueryResult = [NpmInfo, StarInfo, SearchInfo];
+const agent = { https: new ProxyAgent() };
 
 export const query = async (packages: string[]): Promise<Array<[NpmInfo, StarInfo, SearchInfo]>> =>
   Promise.all(
     packages.map((pkg) =>
       Promise.all([
-        got<NpmInfo>(`https://registry.npmjs.org/${pkg}/latest`).json<NpmInfo>(),
-        got<StarInfo>(`https://api.npmjs.org/downloads/point/last-week/${pkg}`).json<StarInfo>(),
+        got<NpmInfo>(`https://registry.npmjs.org/${pkg}/latest`, { agent }).json<NpmInfo>(),
+        got<StarInfo>(`https://api.npmjs.org/downloads/point/last-week/${pkg}`, { agent }).json<StarInfo>(),
         // use yarn to spread the load around some
-        got<SearchInfo>(`https://registry.yarnpkg.com/-/v1/search?text=${pkg}`).json<SearchInfo>(),
+        got<SearchInfo>(`https://registry.yarnpkg.com/-/v1/search?text=${pkg}`, { agent }).json<SearchInfo>(),
       ])
     )
   );
