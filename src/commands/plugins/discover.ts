@@ -33,11 +33,8 @@ export default class PluginsDiscover extends SfCommand<DiscoverResults> {
       'texei-sfdx-plugin',
     ];
 
-    const results = transform(await query(packages))
-      .map(limitJson)
-      .map(colorizeRow);
-
-    this.table(results, {
+    const results = transform(await query(packages)).map(limitJson);
+    this.table(results.map(colorizeRow), {
       name: { header: 'Package' },
       description: { header: 'Description' },
       homepage: { header: 'Homepage' },

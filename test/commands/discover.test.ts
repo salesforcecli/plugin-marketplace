@@ -74,6 +74,7 @@ describe('plugins discover', () => {
     expect(result.length).to.equal(3);
     result.map((pkg) => {
       expect(pkg).to.have.all.keys('name', 'description', 'homepage', 'downloads', 'date');
+      expect(pkg.name.startsWith('@salesforce')).to.be.true;
     });
   });
 });
