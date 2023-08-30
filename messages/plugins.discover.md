@@ -2,10 +2,6 @@
 
 See a list of sf plugins you can install.
 
-# description
-
-Description of a command.
-
 # examples
 
 - <%= config.bin %> <%= command.id %>
