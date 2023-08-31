@@ -17,4 +17,6 @@ export const packages = [
   'sfdmu',
   'aura-helper-sfdx',
   'sfdx-plugin-source-read',
+  'sfdx-essentials',
+  'lightning-flow-scanner'
 ];
