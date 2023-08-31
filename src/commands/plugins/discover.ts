@@ -21,7 +21,8 @@ export default class PluginsDiscover extends SfCommand<DiscoverResults> {
 
   public async run(): Promise<DiscoverResults> {
     const results = transform(await query(packages)).map(limitJson);
-    this.table(results.map(colorizeRow), {
+
+    this.table(results.map(formatRow).map(colorizeRow), {
       name: { header: 'Package' },
       description: { header: 'Description' },
       homepage: { header: 'Homepage' },
@@ -31,18 +32,22 @@ export default class PluginsDiscover extends SfCommand<DiscoverResults> {
 
     this.log(); // Add a blank line before the disclaimer
     this.warn(messages.getMessage('disclaimer'));
-    this.info(messages.getMessage('disclaimer'));
     return results;
   }
 }
 
 /* there's a LOT more properties outside out types coming back from the APIs that we don't want people to build dependencies on  */
 const limitJson = ({ name, description, homepage, downloads, date }: DiscoverResult): DiscoverResult => ({
-  name: name.split('/').join(`/${EOL}  `),
+  name,
   description,
   homepage,
   downloads,
   date,
+});
+
+const formatRow = (dr: DiscoverResult): DiscoverResult => ({
+  ...dr,
+  name: dr.name.split('/').join(`/${EOL}  `),
 });
 
 const colorizeRow = (row: DiscoverResult, index: number): DiscoverResult =>
