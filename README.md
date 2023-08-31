@@ -4,7 +4,7 @@
 
 ## Add a plugin to the list
 
-Submit a PR. We require that your source code be publicly available.
+Submit a PR [here](/src/shared/plugins.ts). We require that your source code be publicly available.
 
 ## Install
 
