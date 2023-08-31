@@ -37,10 +37,11 @@ export default class PluginsDiscover extends SfCommand<DiscoverResults> {
       name: { header: 'Package' },
       description: { header: 'Description' },
       homepage: { header: 'Homepage' },
-      downloads: { header: 'Downloads/Week' },
+      downloads: { header: 'DL/Wk' },
       date: { header: 'Published' },
     });
 
+    this.log(); // Add a blank line before the disclaimer
     this.warn(messages.getMessage('disclaimer'));
     return results;
   }
@@ -50,7 +51,7 @@ export default class PluginsDiscover extends SfCommand<DiscoverResults> {
 const limitJson = ({ name, description, homepage, downloads, date }: DiscoverResult): DiscoverResult => ({
   name,
   description,
-  homepage,
+  homepage: homepage.replace(/https?:\/\//g, ''),
   downloads,
   date,
 });
