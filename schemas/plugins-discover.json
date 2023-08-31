@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/DiscoverResults",
+  "definitions": {
+    "DiscoverResults": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/DiscoverResult"
+      }
+    },
+    "DiscoverResult": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "published": {
+          "type": "string"
+        },
+        "downloads": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "homepage": {
+          "type": "string"
+        }
+      },
+      "required": ["description", "downloads", "homepage", "name", "published"]
+    }
+  }
+}

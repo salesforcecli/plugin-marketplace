@@ -1,10 +1,10 @@
 [
   {
-    "command": "hello:world",
-    "plugin": "@salesforce/plugin-template-sf",
-    "flags": ["json", "name"],
+    "command": "plugins:discover",
+    "plugin": "@salesforce/plugin-marketplace",
+    "flags": ["json"],
     "alias": [],
-    "flagChars": ["n"],
+    "flagChars": [],
     "flagAliases": []
   }
 ]

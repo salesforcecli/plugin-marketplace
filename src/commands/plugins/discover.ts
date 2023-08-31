@@ -4,73 +4,57 @@
  * Licensed under the BSD 3-Clause license.
  * For full license text, see LICENSE.txt file in the repo root or https://opensource.org/licenses/BSD-3-Clause
  */
-import { SfCommand } from '@salesforce/sf-plugins-core';
+import { EOL } from 'node:os';
+import { SfCommand, StandardColors } from '@salesforce/sf-plugins-core';
 import { Messages } from '@salesforce/core';
-import got from 'got';
+import { query, DiscoverResult, transform, descriptionTransform } from '../../shared/discoverQuery';
+import { packages } from '../../shared/plugins';
 
 Messages.importMessagesDirectory(__dirname);
 const messages = Messages.loadMessages('@salesforce/plugin-marketplace', 'plugins.discover');
 
-type NpmInfo = {
-  name: string;
-  version: string;
-  description: string;
-  homepage: string;
-  repository: { url: string };
-};
+export type DiscoverResults = DiscoverResult[];
 
-type StarInfo = {
-  downloads: string;
-  package: string;
-};
-
-export default class PluginsDiscover extends SfCommand<void> {
+export default class PluginsDiscover extends SfCommand<DiscoverResults> {
   public static readonly summary = messages.getMessage('summary');
-  public static readonly description = messages.getMessage('description');
   public static readonly examples = messages.getMessages('examples');
 
-  // eslint-disable-next-line class-methods-use-this
-  public async run(): Promise<void> {
-    const packages = [
-      '@muenzpraeger/sfdx-plugin',
-      'sfdx-waw-plugin',
-      'mo-dx-plugin',
-      'sfdx-hardis',
-      'sfdx-affirm',
-      'expereo-sfdx-plugin',
-      'heat-sfdx-cli',
-      'bmsfdx',
-      'shane-sfdx-plugins',
-      'sfdx-cmdt-plugin',
-      'etcopydata',
-      'sfdx-migration-automatic',
-      'sfdx-devhub-pool',
-      '@dx-cli-toolbox/sfdx-toolbox-package-utils',
-      '@dxatscale/sfpowerscripts',
-      'soqlx-opener',
-      'sfdx-git-packager',
-      'texei-sfdx-plugin',
-    ];
+  public async run(): Promise<DiscoverResults> {
+    await this.parse(PluginsDiscover);
+    const results = transform(await query(packages)).map(limitJson);
 
-    const npmData = await Promise.all(
-      packages.map((pkg) =>
-        Promise.all([
-          got<NpmInfo>(`https://registry.npmjs.org/${pkg}/latest`).json<NpmInfo>(),
-          got<StarInfo>(`https://api.npmjs.org/downloads/point/last-week/${pkg}`).json<StarInfo>(),
-        ])
-      )
-    );
-
-    const combined = npmData
-      .map((y) => ({ ...y[0], ...y[1] }))
-      .sort((a, b) => (b.downloads > a.downloads ? 1 : -1))
-      .map((y) => ({ ...y, description: `${y.description.match(/(.{1,100})(?:\s|$)/g)?.join('\n')}` }));
-
-    this.table(combined, {
+    this.table(results.map(formatRow).map(colorizeRow), {
       name: { header: 'Package' },
       description: { header: 'Description' },
       homepage: { header: 'Homepage' },
-      downloads: { header: 'Weekly Downloads' },
+      downloads: { header: 'DL/Wk' },
+      published: { header: 'Published' },
     });
+
+    this.log(); // Add a blank line before the disclaimer
+    this.warn(messages.getMessage('disclaimer'));
+    return results;
   }
 }
+
+/* there's a LOT more properties outside out types coming back from the APIs that we don't want people to build dependencies on  */
+const limitJson = ({ name, description, homepage, downloads, published }: DiscoverResult): DiscoverResult => ({
+  name,
+  description,
+  homepage,
+  downloads,
+  published,
+});
+
+const formatRow = (dr: DiscoverResult): DiscoverResult => ({
+  ...dr,
+  name: dr.name.split('/').join(`/${EOL}  `),
+  description: descriptionTransform(dr.description),
+});
+
+const colorizeRow = (row: DiscoverResult, index: number): DiscoverResult =>
+  index % 2 === 0
+    ? row
+    : (Object.fromEntries(
+        Object.entries(row).map(([key, value]) => [key, StandardColors.info(value)])
+      ) as DiscoverResult);
