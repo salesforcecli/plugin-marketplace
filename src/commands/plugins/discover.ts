@@ -7,7 +7,7 @@
 import { EOL } from 'node:os';
 import { SfCommand, StandardColors } from '@salesforce/sf-plugins-core';
 import { Messages } from '@salesforce/core';
-import { query, DiscoverResult, transform } from '../../shared/discoverQuery';
+import { query, DiscoverResult, transform, descriptionTransform } from '../../shared/discoverQuery';
 import { packages } from '../../shared/plugins';
 
 Messages.importMessagesDirectory(__dirname);
@@ -20,6 +20,7 @@ export default class PluginsDiscover extends SfCommand<DiscoverResults> {
   public static readonly examples = messages.getMessages('examples');
 
   public async run(): Promise<DiscoverResults> {
+    await this.parse(PluginsDiscover);
     const results = transform(await query(packages)).map(limitJson);
 
     this.table(results.map(formatRow).map(colorizeRow), {
@@ -27,7 +28,7 @@ export default class PluginsDiscover extends SfCommand<DiscoverResults> {
       description: { header: 'Description' },
       homepage: { header: 'Homepage' },
       downloads: { header: 'DL/Wk' },
-      date: { header: 'Published' },
+      published: { header: 'Published' },
     });
 
     this.log(); // Add a blank line before the disclaimer
@@ -37,17 +38,18 @@ export default class PluginsDiscover extends SfCommand<DiscoverResults> {
 }
 
 /* there's a LOT more properties outside out types coming back from the APIs that we don't want people to build dependencies on  */
-const limitJson = ({ name, description, homepage, downloads, date }: DiscoverResult): DiscoverResult => ({
+const limitJson = ({ name, description, homepage, downloads, published }: DiscoverResult): DiscoverResult => ({
   name,
   description,
   homepage,
   downloads,
-  date,
+  published,
 });
 
 const formatRow = (dr: DiscoverResult): DiscoverResult => ({
   ...dr,
   name: dr.name.split('/').join(`/${EOL}  `),
+  description: descriptionTransform(dr.description),
 });
 
 const colorizeRow = (row: DiscoverResult, index: number): DiscoverResult =>

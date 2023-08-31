@@ -71,7 +71,7 @@ describe('query tranformations', () => {
             ],
           },
         ],
-      ])[0].date
+      ])[0].published
     ).to.equal('');
   });
   it('handles no search results', () => {
@@ -84,7 +84,7 @@ describe('query tranformations', () => {
             objects: [],
           },
         ],
-      ])[0].date
+      ])[0].published
     ).to.equal('');
   });
 

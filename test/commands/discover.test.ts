@@ -73,7 +73,7 @@ describe('plugins discover', () => {
     const result = await Discover.run(['--json']);
     expect(result.length).to.equal(3);
     result.map((pkg) => {
-      expect(pkg).to.have.all.keys('name', 'description', 'homepage', 'downloads', 'date');
+      expect(pkg).to.have.all.keys('name', 'description', 'homepage', 'downloads', 'published');
       expect(pkg.name.startsWith('@salesforce')).to.be.true;
     });
   });

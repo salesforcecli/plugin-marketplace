@@ -12,7 +12,7 @@
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "date": {
+        "published": {
           "type": "string"
         },
         "downloads": {
@@ -28,7 +28,7 @@
           "type": "string"
         }
       },
-      "required": ["date", "description", "downloads", "homepage", "name"]
+      "required": ["description", "downloads", "homepage", "name", "published"]
     }
   }
 }

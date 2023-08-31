@@ -29,7 +29,7 @@ export type SearchInfo = {
   }>;
 };
 
-export type DiscoverResult = NpmInfo & StarInfo & { date: string };
+export type DiscoverResult = NpmInfo & StarInfo & { published: string };
 
 type QueryResult = [NpmInfo, StarInfo, SearchInfo];
 const agent = { https: new ProxyAgent() };
@@ -48,11 +48,10 @@ export const query = async (packages: string[]): Promise<Array<[NpmInfo, StarInf
 
 export const transform = (queryResult: QueryResult[]): DiscoverResult[] =>
   queryResult
-    .map((y) => ({ ...y[0], ...y[1], date: dateFromSearchObjects(y[0].name, y[2]) }))
+    .map((y) => ({ ...y[0], ...y[1], published: dateFromSearchObjects(y[0].name, y[2]) }))
     .sort((a, b) => (b.downloads > a.downloads ? 1 : -1))
     .map((y) => ({
       ...y,
-      description: descriptionTransform(y.description),
       homepage: y.homepage.replace('https://github.com/https://github.com', 'https://github.com'),
     }));
 

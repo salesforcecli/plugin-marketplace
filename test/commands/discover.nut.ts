@@ -32,8 +32,8 @@ describe('plugins discover (no mocks)', () => {
     assert(result);
     expect(result.length).to.equal(packages.length);
     result.map((pkg) => {
-      expect(pkg).to.have.all.keys('name', 'description', 'homepage', 'downloads', 'date');
-      expect(pkg.date).to.match(/\d{4}-\d{2}-\d{2}/);
+      expect(pkg).to.have.all.keys('name', 'description', 'homepage', 'downloads', 'published');
+      expect(pkg.published).to.match(/\d{4}-\d{2}-\d{2}/);
       expect(pkg.name).to.be.oneOf(packages);
       expect(pkg.downloads).to.be.a('number');
       expect(pkg.homepage).to.be.a('string').with.length.greaterThan(0);
