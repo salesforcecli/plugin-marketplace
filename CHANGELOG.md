@@ -1,3 +1,12 @@
+## [0.1.1](https://github.com/salesforcecli/plugin-template-sf/compare/0.1.0...0.1.1) (2023-08-31)
+
+
+### Bug Fixes
+
+* got is a dep ([98d2f0b](https://github.com/salesforcecli/plugin-template-sf/commit/98d2f0bb19a1fbf445e0080b3736c3b820204682))
+
+
+
 # [0.1.0](https://github.com/salesforcecli/plugin-template-sf/compare/0.0.2-dev.1...0.1.0) (2023-08-31)
 
 
