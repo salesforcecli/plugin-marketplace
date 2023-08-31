@@ -51,7 +51,7 @@ export default class PluginsDiscover extends SfCommand<DiscoverResults> {
 const limitJson = ({ name, description, homepage, downloads, date }: DiscoverResult): DiscoverResult => ({
   name,
   description,
-  homepage: homepage.replace(/https?:\/\//g, ''),
+  homepage,
   downloads,
   date,
 });
