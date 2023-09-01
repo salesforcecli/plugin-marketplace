@@ -17,4 +17,9 @@ export const packages = [
   'sfdmu',
   'aura-helper-sfdx',
   'sfdx-plugin-source-read',
+  '@jayree/sfdx-plugin-manifest',
+  '@jayree/sfdx-plugin-org',
+  '@jayree/sfdx-plugin-prettier',
+  '@jayree/sfdx-plugin-source',
+  'sfdx-plugin-update-notifier',
 ];
