@@ -16,5 +16,6 @@ export const packages = [
   'sfdx-git-delta',
   'sfdmu',
   'aura-helper-sfdx',
+  'sfdx-browserforce-plugin',
   'sfdx-plugin-source-read',
 ];
