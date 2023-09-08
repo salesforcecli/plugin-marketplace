@@ -62,6 +62,8 @@ const dateFromSearchObjects = (pkgName: string, searchInfo: SearchInfo): string 
 export const descriptionTransform = (description: string): string =>
   (
     description
+      // links and image links
+      .replace(/\[.*\]\(.*\)/g, '')
       // line dividers
       .replace(/={2,}/g, '')
       .trim()

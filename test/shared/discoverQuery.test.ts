@@ -93,6 +93,20 @@ describe('query tranformations', () => {
       expect(descriptionTransform('blah ================blah regular 2=2')).to.not.include('==');
       expect(descriptionTransform('blah ================blah regular 2=2')).to.include('2=2');
     });
+    it('removes link urls', () => {
+      expect(
+        descriptionTransform(
+          '[Lightning Flow Scanner Banner](https://github.com/Force-Config-Control/lightning-flow-scanner-sfdx) actual description'
+        )
+      ).to.equal('actual description');
+    });
+    it('removes image link urls', () => {
+      expect(
+        descriptionTransform(
+          '[![Lightning Flow Scanner Banner](docs/images/banner.png)](https://github.com/Force-Config-Control/lightning-flow-scanner-sfdx) actual description'
+        )
+      ).to.equal('actual description');
+    });
     it('removes empty lines', () => {
       expect(
         descriptionTransform(`blah 

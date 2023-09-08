@@ -16,5 +16,13 @@ export const packages = [
   'sfdx-git-delta',
   'sfdmu',
   'aura-helper-sfdx',
+  'sfdx-browserforce-plugin',
   'sfdx-plugin-source-read',
+  'sfdx-essentials',
+  'lightning-flow-scanner',
+  '@jayree/sfdx-plugin-manifest',
+  '@jayree/sfdx-plugin-org',
+  '@jayree/sfdx-plugin-prettier',
+  '@jayree/sfdx-plugin-source',
+  'sfdx-plugin-update-notifier',
 ];
