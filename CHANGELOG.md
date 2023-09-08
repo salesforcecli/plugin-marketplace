@@ -1,3 +1,12 @@
+# [0.2.0](https://github.com/salesforcecli/plugin-template-sf/compare/0.1.3...0.2.0) (2023-09-08)
+
+
+### Features
+
+* bunch of submitted plugins, handling of md structures in desc  ([fdce4ac](https://github.com/salesforcecli/plugin-template-sf/commit/fdce4ac0d9e05477f3bb0d7a789c9e74271957f5))
+
+
+
 ## [0.1.3](https://github.com/salesforcecli/plugin-template-sf/compare/0.1.2...0.1.3) (2023-09-03)
 
 
