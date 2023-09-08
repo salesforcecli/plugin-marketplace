@@ -20,4 +20,9 @@ export const packages = [
   'sfdx-plugin-source-read',
   'sfdx-essentials',
   'lightning-flow-scanner',
+  '@jayree/sfdx-plugin-manifest',
+  '@jayree/sfdx-plugin-org',
+  '@jayree/sfdx-plugin-prettier',
+  '@jayree/sfdx-plugin-source',
+  'sfdx-plugin-update-notifier',
 ];
