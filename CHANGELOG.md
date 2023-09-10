@@ -1,3 +1,12 @@
+## [0.2.1](https://github.com/salesforcecli/plugin-template-sf/compare/0.2.0...0.2.1) (2023-09-10)
+
+
+### Bug Fixes
+
+* **deps:** bump proxy-agent from 6.3.0 to 6.3.1 ([952dc06](https://github.com/salesforcecli/plugin-template-sf/commit/952dc06ae84479ebadfd416013445d9325139417))
+
+
+
 # [0.2.0](https://github.com/salesforcecli/plugin-template-sf/compare/0.1.3...0.2.0) (2023-09-08)
 
 
