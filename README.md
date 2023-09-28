@@ -71,7 +71,7 @@ sf plugins
 
 ## `sf plugins discover`
 
-See a list of sf plugins you can install.
+See a list of 3rd-party sf plugins you can install.
 
 ```
 USAGE
@@ -80,15 +80,10 @@ USAGE
 GLOBAL FLAGS
   --json  Format output as json.
 
-DESCRIPTION
-  See a list of sf plugins you can install.
-
-  Description of a command.
-
 EXAMPLES
   $ sf plugins discover
 ```
 
-_See code: [src/commands/plugins/discover.ts](https://github.com/salesforcecli/plugin-marketplace/blob/v0.0.1/src/commands/plugins/discover.ts)_
+_See code: [src/commands/plugins/discover.ts](https://github.com/salesforcecli/plugin-template-sf/blob/0.2.3/src/commands/plugins/discover.ts)_
 
 <!-- commandsstop -->
