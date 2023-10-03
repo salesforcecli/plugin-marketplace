@@ -1,3 +1,9 @@
+# [0.3.0](https://github.com/salesforcecli/plugin-template-sf/compare/0.2.3...0.3.0) (2023-10-03)
+
+### Features
+
+- add `cristiand391` plugins ([#60](https://github.com/salesforcecli/plugin-template-sf/issues/60)) ([3bfe593](https://github.com/salesforcecli/plugin-template-sf/commit/3bfe5931c80e06bb72a26161c3e4af6855821192))
+
 ## [0.2.3](https://github.com/salesforcecli/plugin-template-sf/compare/0.2.2...0.2.3) (2023-09-28)
 
 ### Bug Fixes
