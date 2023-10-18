@@ -84,6 +84,6 @@ EXAMPLES
   $ sf plugins discover
 ```
 
-_See code: [src/commands/plugins/discover.ts](https://github.com/salesforcecli/plugin-template-sf/blob/0.3.0/src/commands/plugins/discover.ts)_
+_See code: [src/commands/plugins/discover.ts](https://github.com/salesforcecli/plugin-template-sf/blob/0.3.1/src/commands/plugins/discover.ts)_
 
 <!-- commandsstop -->
