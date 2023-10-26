@@ -7,8 +7,8 @@
 import { expect, config, assert } from 'chai';
 import { Messages } from '@salesforce/core';
 import { execCmd } from '@salesforce/cli-plugins-testkit';
-import { DiscoverResults } from '../../src/commands/plugins/discover';
-import { packages } from '../../src/shared/plugins';
+import { DiscoverResults } from '../../src/commands/plugins/discover.js';
+import { packages } from '../../src/shared/plugins.js';
 
 Messages.importMessagesDirectory(__dirname);
 const messages = Messages.loadMessages('@salesforce/plugin-marketplace', 'plugins.discover');

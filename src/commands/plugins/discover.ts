@@ -5,12 +5,14 @@
  * For full license text, see LICENSE.txt file in the repo root or https://opensource.org/licenses/BSD-3-Clause
  */
 import { EOL } from 'node:os';
+import { dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { SfCommand, StandardColors } from '@salesforce/sf-plugins-core';
 import { Messages } from '@salesforce/core';
-import { query, DiscoverResult, transform, descriptionTransform } from '../../shared/discoverQuery';
-import { packages } from '../../shared/plugins';
+import shared, { DiscoverResult } from '../../shared/discoverQuery.js';
+import { packages } from '../../shared/plugins.js';
 
-Messages.importMessagesDirectory(__dirname);
+Messages.importMessagesDirectory(dirname(fileURLToPath(import.meta.url)));
 const messages = Messages.loadMessages('@salesforce/plugin-marketplace', 'plugins.discover');
 
 export type DiscoverResults = DiscoverResult[];
@@ -21,7 +23,7 @@ export default class PluginsDiscover extends SfCommand<DiscoverResults> {
 
   public async run(): Promise<DiscoverResults> {
     await this.parse(PluginsDiscover);
-    const results = transform(await query(packages)).map(limitJson);
+    const results = shared.transform(await shared.query(packages)).map(limitJson);
 
     this.table(results.map(formatRow).map(colorizeRow), {
       name: { header: 'Package' },
@@ -49,7 +51,7 @@ const limitJson = ({ name, description, homepage, downloads, published }: Discov
 const formatRow = (dr: DiscoverResult): DiscoverResult => ({
   ...dr,
   name: dr.name.split('/').join(`/${EOL}  `),
-  description: descriptionTransform(dr.description),
+  description: shared.descriptionTransform(dr.description),
 });
 
 const colorizeRow = (row: DiscoverResult, index: number): DiscoverResult =>

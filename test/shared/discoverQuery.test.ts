@@ -5,7 +5,7 @@
  * For full license text, see LICENSE.txt file in the repo root or https://opensource.org/licenses/BSD-3-Clause
  */
 import { expect, config } from 'chai';
-import { transform, descriptionTransform, query } from '../../src/shared/discoverQuery';
+import { transform, descriptionTransform, query } from '../../src/shared/discoverQuery.js';
 config.truncateThreshold = 0;
 
 describe('query tranformations', () => {
@@ -109,9 +109,9 @@ describe('query tranformations', () => {
     });
     it('removes empty lines', () => {
       expect(
-        descriptionTransform(`blah 
-      
-      
+        descriptionTransform(`blah
+
+
       blah`)
       ).to.not.include('\n\n');
     });
