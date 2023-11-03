@@ -74,3 +74,9 @@ export const descriptionTransform = (description: string): string =>
   )
     // remove empty lines
     .replace(/\n{2,}/gm, '\n');
+
+export default {
+  query,
+  transform,
+  descriptionTransform,
+};
