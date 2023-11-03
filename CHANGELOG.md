@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/salesforcecli/plugin-template-sf/compare/0.3.2...1.0.1) (2023-11-03)
+
+### Bug Fixes
+
+- 1.0.0 release ([44ee7a8](https://github.com/salesforcecli/plugin-template-sf/commit/44ee7a88fa3f018eee1ab285ecd2776150b5f2ca))
+
 ## [0.3.2](https://github.com/salesforcecli/plugin-template-sf/compare/0.3.1...0.3.2) (2023-10-29)
 
 ### Bug Fixes
