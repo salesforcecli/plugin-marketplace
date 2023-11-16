@@ -1,3 +1,9 @@
+## [1.0.6](https://github.com/salesforcecli/plugin-template-sf/compare/1.0.5...1.0.6) (2023-11-16)
+
+### Bug Fixes
+
+- updates from devScripts ([#93](https://github.com/salesforcecli/plugin-template-sf/issues/93)) + core v6 ([cae524f](https://github.com/salesforcecli/plugin-template-sf/commit/cae524f6c68a0c0c003a1a5508bdfe06a0c2a88c))
+
 ## [1.0.5](https://github.com/salesforcecli/plugin-template-sf/compare/1.0.4...1.0.5) (2023-11-13)
 
 ### Bug Fixes
