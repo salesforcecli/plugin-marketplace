@@ -33,7 +33,7 @@
     "/schemas",
     "/oclif.lock"
   ],
-  "homepage": "https://github.com/salesforcecli/plugin-template-sf",
+  "homepage": "https://github.com/salesforcecli/plugin-marketplace",
   "keywords": [
     "force",
     "salesforce",
