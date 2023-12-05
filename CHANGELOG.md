@@ -1,3 +1,9 @@
+## [1.0.10](https://github.com/salesforcecli/plugin-template-sf/compare/1.0.9...1.0.10) (2023-12-05)
+
+### Bug Fixes
+
+- correct homepage ([6ac110c](https://github.com/salesforcecli/plugin-template-sf/commit/6ac110c80215d5533bbefdc55060366d01ccc5a6))
+
 ## [1.0.9](https://github.com/salesforcecli/plugin-template-sf/compare/1.0.8...1.0.9) (2023-12-03)
 
 ### Bug Fixes
