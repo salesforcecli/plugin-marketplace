@@ -61,7 +61,7 @@
     },
     "flexibleTaxonomy": true
   },
-  "repository": "salesforcecli/plugin-template-sf",
+  "repository": "salesforcecli/plugin-marketplace",
   "scripts": {
     "build": "wireit",
     "clean": "sf-clean",
