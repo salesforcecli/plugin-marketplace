@@ -1,3 +1,9 @@
+## [1.0.16](https://github.com/salesforcecli/plugin-marketplace/compare/1.0.15...1.0.16) (2024-01-05)
+
+### Bug Fixes
+
+- **deps:** plugins-core7 ([#131](https://github.com/salesforcecli/plugin-marketplace/issues/131)) ([ae6c273](https://github.com/salesforcecli/plugin-marketplace/commit/ae6c2733f41005963bfccad016b35150b1a513bd))
+
 ## [1.0.15](https://github.com/salesforcecli/plugin-marketplace/compare/1.0.14...1.0.15) (2023-12-31)
 
 ### Bug Fixes
