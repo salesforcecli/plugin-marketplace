@@ -1,3 +1,9 @@
+## [1.0.18](https://github.com/salesforcecli/plugin-marketplace/compare/1.0.17...1.0.18) (2024-01-21)
+
+### Bug Fixes
+
+- **deps:** bump @salesforce/sf-plugins-core from 7.0.0 to 7.1.3 ([8d3f8bb](https://github.com/salesforcecli/plugin-marketplace/commit/8d3f8bb622b9783ae579a6487a5893c32b01dc1a))
+
 ## [1.0.17](https://github.com/salesforcecli/plugin-marketplace/compare/1.0.16...1.0.17) (2024-01-21)
 
 ### Bug Fixes
