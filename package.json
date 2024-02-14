@@ -49,8 +49,8 @@
   "license": "BSD-3-Clause",
   "oclif": {
     "commands": {
-      "strategy": "pattern",
-      "target": "./lib/commands"
+      "strategy": "explicit",
+      "target": "./lib/commands.js"
     },
     "bin": "sf",
     "topicSeparator": " ",
