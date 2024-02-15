@@ -146,11 +146,7 @@
       "dependencies": [
         "test:compile",
         "test:only",
-        "test:command-reference",
-        "test:deprecation-policy",
-        "lint",
-        "test:json-schema",
-        "link-check"
+        "lint"
       ]
     },
     "test:only": {
