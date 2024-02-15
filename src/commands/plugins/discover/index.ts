@@ -6,13 +6,12 @@
  */
 import { EOL } from 'node:os';
 
-
 import { SfCommand, StandardColors } from '@salesforce/sf-plugins-core';
 import { Messages } from '@salesforce/core';
-import shared, { DiscoverResult } from '../../shared/discoverQuery.js';
-import { packages } from '../../shared/plugins.js';
+import shared, { DiscoverResult } from './discoverQuery.js';
+import { packages } from './plugins.js';
 
-Messages.importMessagesDirectoryFromMetaUrl(import.meta.url)
+Messages.importMessagesDirectoryFromMetaUrl(import.meta.url);
 const messages = Messages.loadMessages('@salesforce/plugin-marketplace', 'plugins.discover');
 
 export type DiscoverResults = DiscoverResult[];

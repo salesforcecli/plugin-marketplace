@@ -7,8 +7,8 @@
 import { TestContext } from '@salesforce/core/lib/testSetup.js';
 import { expect, config } from 'chai';
 import { stubSfCommandUx } from '@salesforce/sf-plugins-core';
-import Discover from '../../src/commands/plugins/discover.js';
-import queryStubs from '../../src/shared/discoverQuery.js';
+import Discover from '../../src/commands/plugins/discover/index.js';
+import queryStubs from '../../src/commands/plugins/discover/discoverQuery.js';
 
 const lorem = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. ============================= Phasellus a magna odio. Nullam bibendum magna a lectus faucibus, et viverra neque ornare. Vestibulum tellus augue, rutrum et semper id, pellentesque eget lacus. Nunc ac ultricies nulla, in sagittis arcu. Maecenas accumsan ac dui eget pharetra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque ac nisi pretium, suscipit metus ac, sodales nisl. Quisque eget finibus nunc, id iaculis quam. Fusce a ultrices leo. Morbi eu est condimentum sapien semper porttitor non ac nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 

@@ -5,7 +5,7 @@
  * For full license text, see LICENSE.txt file in the repo root or https://opensource.org/licenses/BSD-3-Clause
  */
 import { expect, config } from 'chai';
-import { transform, descriptionTransform, query } from '../../src/shared/discoverQuery.js';
+import { transform, descriptionTransform, query } from '../../src/commands/plugins/discover/discoverQuery.js';
 config.truncateThreshold = 0;
 
 describe('query tranformations', () => {

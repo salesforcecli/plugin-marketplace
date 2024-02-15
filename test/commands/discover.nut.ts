@@ -5,14 +5,13 @@
  * For full license text, see LICENSE.txt file in the repo root or https://opensource.org/licenses/BSD-3-Clause
  */
 
-
 import { expect, config, assert } from 'chai';
 import { Messages } from '@salesforce/core';
 import { execCmd } from '@salesforce/cli-plugins-testkit';
-import { DiscoverResults } from '../../src/commands/plugins/discover.js';
-import { packages } from '../../src/shared/plugins.js';
+import { DiscoverResults } from '../../src/commands/plugins/discover/index.js';
+import { packages } from '../../src/commands/plugins/discover/plugins.js';
 
-Messages.importMessagesDirectoryFromMetaUrl(import.meta.url)
+Messages.importMessagesDirectoryFromMetaUrl(import.meta.url);
 const messages = Messages.loadMessages('@salesforce/plugin-marketplace', 'plugins.discover');
 
 config.truncateThreshold = 0;
