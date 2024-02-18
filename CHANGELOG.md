@@ -1,3 +1,9 @@
+## [1.0.23](https://github.com/salesforcecli/plugin-marketplace/compare/1.0.22...1.0.23) (2024-02-18)
+
+### Bug Fixes
+
+- **deps:** bump proxy-agent from 6.3.1 to 6.4.0 ([560d909](https://github.com/salesforcecli/plugin-marketplace/commit/560d9096b4d5338d71cc8588eb0a3cf60f32cb20))
+
 ## [1.0.22](https://github.com/salesforcecli/plugin-marketplace/compare/1.0.21...1.0.22) (2024-02-11)
 
 ### Bug Fixes

@@ -1,7 +1,7 @@
 {
   "name": "@salesforce/plugin-marketplace",
   "description": "Find sf plugins",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "author": "Salesforce",
   "bugs": "https://github.com/forcedotcom/cli/issues",
   "dependencies": {
