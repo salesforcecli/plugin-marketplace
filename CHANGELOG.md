@@ -1,3 +1,9 @@
+## [1.0.25](https://github.com/salesforcecli/plugin-marketplace/compare/1.0.24...1.0.25) (2024-02-21)
+
+### Bug Fixes
+
+- **deps:** bump ip from 1.1.8 to 1.1.9 ([387ee01](https://github.com/salesforcecli/plugin-marketplace/commit/387ee017940b0c81fd4ff54c33d7f8cce9a082db))
+
 ## [1.0.24](https://github.com/salesforcecli/plugin-marketplace/compare/1.0.23...1.0.24) (2024-02-19)
 
 ### Bug Fixes
