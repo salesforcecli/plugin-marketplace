@@ -1,3 +1,9 @@
+## [1.0.28](https://github.com/salesforcecli/plugin-marketplace/compare/1.0.27...1.0.28) (2024-03-17)
+
+### Bug Fixes
+
+- **deps:** bump @salesforce/core from 6.7.0 to 6.7.1 ([7bfa4e2](https://github.com/salesforcecli/plugin-marketplace/commit/7bfa4e2bd7a86d34c201881c01a493f241018fc2))
+
 ## [1.0.27](https://github.com/salesforcecli/plugin-marketplace/compare/1.0.26...1.0.27) (2024-03-10)
 
 ### Bug Fixes
