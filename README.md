@@ -67,8 +67,24 @@ sf plugins
 
 <!-- commands -->
 
-# Command Topics
+- [`sf plugins discover`](#sf-plugins-discover)
 
-- [`sf plugins`](docs/plugins.md) - Find and manage plugins
+## `sf plugins discover`
+
+See a list of 3rd-party sf plugins you can install.
+
+```
+USAGE
+  $ sf plugins discover [--json] [--flags-dir <value>]
+
+GLOBAL FLAGS
+  --flags-dir=<value>  Import flag values from a directory.
+  --json               Format output as json.
+
+EXAMPLES
+  $ sf plugins discover
+```
+
+_See code: [src/commands/plugins/discover.ts](https://github.com/salesforcecli/plugin-marketplace/blob/1.0.30/src/commands/plugins/discover.ts)_
 
 <!-- commandsstop -->
