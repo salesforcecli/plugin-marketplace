@@ -1,3 +1,9 @@
+# [1.1.0](https://github.com/salesforcecli/plugin-marketplace/compare/1.0.30...1.1.0) (2024-03-25)
+
+### Features
+
+- bump sf-plugins-core ([166edb0](https://github.com/salesforcecli/plugin-marketplace/commit/166edb0f98175bd24b1c428090c29e09e6b7a1f7))
+
 ## [1.0.30](https://github.com/salesforcecli/plugin-marketplace/compare/1.0.29...1.0.30) (2024-03-25)
 
 ### Bug Fixes
