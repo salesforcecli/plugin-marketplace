@@ -1,10 +1,10 @@
 [
   {
-    "command": "plugins:discover",
-    "plugin": "@salesforce/plugin-marketplace",
-    "flags": ["json"],
     "alias": [],
+    "command": "plugins:discover",
+    "flagAliases": [],
     "flagChars": [],
-    "flagAliases": []
+    "flags": ["flags-dir", "json"],
+    "plugin": "@salesforce/plugin-marketplace"
   }
 ]
