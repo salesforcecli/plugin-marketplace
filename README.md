@@ -67,23 +67,8 @@ sf plugins
 
 <!-- commands -->
 
-- [`sf plugins discover`](#sf-plugins-discover)
+# Command Topics
 
-## `sf plugins discover`
-
-See a list of 3rd-party sf plugins you can install.
-
-```
-USAGE
-  $ sf plugins discover [--json]
-
-GLOBAL FLAGS
-  --json  Format output as json.
-
-EXAMPLES
-  $ sf plugins discover
-```
-
-_See code: [src/commands/plugins/discover.ts](https://github.com/salesforcecli/plugin-marketplace/blob/1.0.29/src/commands/plugins/discover.ts)_
+- [`sf plugins`](docs/plugins.md) - Find and manage plugins
 
 <!-- commandsstop -->
