@@ -1,3 +1,9 @@
+## [1.1.1](https://github.com/salesforcecli/plugin-marketplace/compare/1.1.0...1.1.1) (2024-04-07)
+
+### Bug Fixes
+
+- **deps:** bump @salesforce/sf-plugins-core from 8.0.1 to 8.0.3 ([dd5db1e](https://github.com/salesforcecli/plugin-marketplace/commit/dd5db1eecfcc21a6de044fe507a124154110e559))
+
 # [1.1.0](https://github.com/salesforcecli/plugin-marketplace/compare/1.0.30...1.1.0) (2024-03-25)
 
 ### Features
