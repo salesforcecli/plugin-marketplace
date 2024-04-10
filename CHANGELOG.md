@@ -1,3 +1,9 @@
+# [1.2.0](https://github.com/salesforcecli/plugin-marketplace/compare/1.1.1...1.2.0) (2024-04-10)
+
+### Features
+
+- jsforce-node, core7 ([4d3b821](https://github.com/salesforcecli/plugin-marketplace/commit/4d3b821607644c58b205eea62cf14f518bfaaa0a))
+
 ## [1.1.1](https://github.com/salesforcecli/plugin-marketplace/compare/1.1.0...1.1.1) (2024-04-07)
 
 ### Bug Fixes
