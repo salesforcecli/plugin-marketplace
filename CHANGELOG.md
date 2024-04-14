@@ -1,3 +1,9 @@
+## [1.2.1](https://github.com/salesforcecli/plugin-marketplace/compare/1.2.0...1.2.1) (2024-04-14)
+
+### Bug Fixes
+
+- **deps:** bump @oclif/core from 3.26.2 to 3.26.3 ([c11161f](https://github.com/salesforcecli/plugin-marketplace/commit/c11161f72f47c9e66fd2b6bc107fb333e2028b55))
+
 # [1.2.0](https://github.com/salesforcecli/plugin-marketplace/compare/1.1.1...1.2.0) (2024-04-10)
 
 ### Features
