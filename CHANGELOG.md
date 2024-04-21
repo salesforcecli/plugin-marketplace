@@ -1,3 +1,9 @@
+## [1.2.3](https://github.com/salesforcecli/plugin-marketplace/compare/1.2.2...1.2.3) (2024-04-21)
+
+### Bug Fixes
+
+- **deps:** bump @salesforce/core from 7.3.0 to 7.3.1 ([66529ec](https://github.com/salesforcecli/plugin-marketplace/commit/66529ec50147e62bfac5f929bb67832931dd0237))
+
 ## [1.2.2](https://github.com/salesforcecli/plugin-marketplace/compare/1.2.1...1.2.2) (2024-04-21)
 
 ### Bug Fixes
