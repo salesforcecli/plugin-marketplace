@@ -8,7 +8,7 @@
     "@oclif/core": "^3.26.4",
     "@salesforce/core": "^7.3.9",
     "@salesforce/kit": "^3.1.0",
-    "@salesforce/sf-plugins-core": "^9.0.12",
+    "@salesforce/sf-plugins-core": "^9.1.1",
     "got": "^13.0.0",
     "proxy-agent": "^6.4.0"
   },
