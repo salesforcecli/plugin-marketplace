@@ -1,3 +1,9 @@
+## [1.2.10](https://github.com/salesforcecli/plugin-marketplace/compare/1.2.9...1.2.10) (2024-06-04)
+
+### Bug Fixes
+
+- `add kc-sf-plugin` ([#270](https://github.com/salesforcecli/plugin-marketplace/issues/270)) ([23658c0](https://github.com/salesforcecli/plugin-marketplace/commit/23658c0e959c1e5c97607d87e2e14f489a650890))
+
 ## [1.2.9](https://github.com/salesforcecli/plugin-marketplace/compare/1.2.8...1.2.9) (2024-06-02)
 
 ### Bug Fixes
