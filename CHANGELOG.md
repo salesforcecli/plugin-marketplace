@@ -1,3 +1,9 @@
+## [1.2.13](https://github.com/salesforcecli/plugin-marketplace/compare/1.2.12...1.2.13) (2024-06-13)
+
+### Bug Fixes
+
+- **deps:** bump braces from 3.0.2 to 3.0.3 ([04c4489](https://github.com/salesforcecli/plugin-marketplace/commit/04c4489bcaec5da428419bffb5b5d22eceaf843c))
+
 ## [1.2.12](https://github.com/salesforcecli/plugin-marketplace/compare/1.2.11...1.2.12) (2024-06-09)
 
 ### Bug Fixes
