@@ -1,3 +1,9 @@
+## [1.2.14](https://github.com/salesforcecli/plugin-marketplace/compare/1.2.13...1.2.14) (2024-06-16)
+
+### Bug Fixes
+
+- **deps:** bump @salesforce/sf-plugins-core from 10.0.0 to 10.0.1 ([b9c9cfc](https://github.com/salesforcecli/plugin-marketplace/commit/b9c9cfc48dd3bf828569016a79a399333be579b7))
+
 ## [1.2.13](https://github.com/salesforcecli/plugin-marketplace/compare/1.2.12...1.2.13) (2024-06-13)
 
 ### Bug Fixes
