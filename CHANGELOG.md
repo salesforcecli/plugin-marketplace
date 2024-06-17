@@ -1,3 +1,9 @@
+## [1.2.15](https://github.com/salesforcecli/plugin-marketplace/compare/1.2.14...1.2.15) (2024-06-17)
+
+### Bug Fixes
+
+- **deps:** remove oclif/core dependency ([#289](https://github.com/salesforcecli/plugin-marketplace/issues/289)) ([dc08d91](https://github.com/salesforcecli/plugin-marketplace/commit/dc08d91231eab6688698b3e90584ef7f8e5ca797))
+
 ## [1.2.14](https://github.com/salesforcecli/plugin-marketplace/compare/1.2.13...1.2.14) (2024-06-16)
 
 ### Bug Fixes
