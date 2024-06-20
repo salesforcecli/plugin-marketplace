@@ -1,3 +1,9 @@
+## [1.2.16](https://github.com/salesforcecli/plugin-marketplace/compare/1.2.15...1.2.16) (2024-06-20)
+
+### Bug Fixes
+
+- updates from devScripts ([#291](https://github.com/salesforcecli/plugin-marketplace/issues/291)) ([142a686](https://github.com/salesforcecli/plugin-marketplace/commit/142a686d8f1c13784dfdb36ffda3717a98bf74a9))
+
 ## [1.2.15](https://github.com/salesforcecli/plugin-marketplace/compare/1.2.14...1.2.15) (2024-06-17)
 
 ### Bug Fixes
