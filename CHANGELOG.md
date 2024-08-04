@@ -1,3 +1,9 @@
+## [1.2.22](https://github.com/salesforcecli/plugin-marketplace/compare/1.2.21...1.2.22) (2024-08-04)
+
+### Bug Fixes
+
+- **deps:** bump @salesforce/kit from 3.1.6 to 3.2.1 ([f7cfb6d](https://github.com/salesforcecli/plugin-marketplace/commit/f7cfb6d6ee77589c4efcebc56ee324a0829cec9a))
+
 ## [1.2.21](https://github.com/salesforcecli/plugin-marketplace/compare/1.2.20...1.2.21) (2024-08-04)
 
 ### Bug Fixes
