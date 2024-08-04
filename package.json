@@ -6,7 +6,7 @@
   "bugs": "https://github.com/forcedotcom/cli/issues",
   "dependencies": {
     "@salesforce/core": "^8.2.8",
-    "@salesforce/kit": "^3.1.6",
+    "@salesforce/kit": "^3.2.1",
     "@salesforce/sf-plugins-core": "^11.2.4",
     "got": "^13.0.0",
     "proxy-agent": "^6.4.0"
