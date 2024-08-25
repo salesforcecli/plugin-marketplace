@@ -1,3 +1,9 @@
+## [1.2.24](https://github.com/salesforcecli/plugin-marketplace/compare/1.2.23...1.2.24) (2024-08-25)
+
+### Bug Fixes
+
+- **deps:** bump micromatch from 4.0.5 to 4.0.8 ([5f8e7f6](https://github.com/salesforcecli/plugin-marketplace/commit/5f8e7f6083c2ca1213d9637d65f0c09087de4349))
+
 ## [1.2.23](https://github.com/salesforcecli/plugin-marketplace/compare/1.2.22...1.2.23) (2024-08-25)
 
 ### Bug Fixes
