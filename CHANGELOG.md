@@ -1,3 +1,9 @@
+## [1.2.26](https://github.com/salesforcecli/plugin-marketplace/compare/1.2.25...1.2.26) (2024-09-23)
+
+### Bug Fixes
+
+- remove `sf-plugin-api` ([#382](https://github.com/salesforcecli/plugin-marketplace/issues/382)) ([84fd5f0](https://github.com/salesforcecli/plugin-marketplace/commit/84fd5f053d58ef5cde87e231a195fe75c23c43ca))
+
 ## [1.2.25](https://github.com/salesforcecli/plugin-marketplace/compare/1.2.24...1.2.25) (2024-09-01)
 
 ### Bug Fixes
