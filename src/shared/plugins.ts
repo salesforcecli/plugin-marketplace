@@ -25,7 +25,6 @@ export const packages = [
   '@jayree/sfdx-plugin-prettier',
   '@jayree/sfdx-plugin-source',
   'sfdx-plugin-update-notifier',
-  '@cristiand391/sf-plugin-api',
   '@cristiand391/sf-plugin-fzf-cmp',
   'kc-sf-plugin',
 ];
