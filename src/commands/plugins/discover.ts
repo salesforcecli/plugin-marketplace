@@ -4,9 +4,7 @@
  * Licensed under the BSD 3-Clause license.
  * For full license text, see LICENSE.txt file in the repo root or https://opensource.org/licenses/BSD-3-Clause
  */
-import { EOL } from 'node:os';
-
-import { SfCommand, StandardColors } from '@salesforce/sf-plugins-core';
+import { SfCommand } from '@salesforce/sf-plugins-core';
 import { Messages } from '@salesforce/core';
 import shared, { DiscoverResult } from '../../shared/discoverQuery.js';
 import { packages } from '../../shared/plugins.js';
@@ -25,7 +23,7 @@ export default class PluginsDiscover extends SfCommand<DiscoverResults> {
     const results = shared.transform(await shared.query(packages)).map(limitJson);
 
     this.table({
-      data: results.map(formatRow).map(colorizeRow),
+      data: results.map(formatRow),
       columns: [
         {
           key: 'name',
@@ -39,6 +37,7 @@ export default class PluginsDiscover extends SfCommand<DiscoverResults> {
         },
         'published',
       ],
+      overflow: 'wrap',
     });
     this.log(); // Add a blank line before the disclaimer
     this.warn(messages.getMessage('disclaimer'));
@@ -57,13 +56,5 @@ const limitJson = ({ name, description, homepage, downloads, published }: Discov
 
 const formatRow = (dr: DiscoverResult): DiscoverResult => ({
   ...dr,
-  name: dr.name.split('/').join(`/${EOL}  `),
   description: shared.descriptionTransform(dr.description),
 });
-
-const colorizeRow = (row: DiscoverResult, index: number): DiscoverResult =>
-  index % 2 === 0
-    ? row
-    : (Object.fromEntries(
-        Object.entries(row).map(([key, value]) => [key, StandardColors.info(value)])
-      ) as DiscoverResult);
