@@ -1,3 +1,13 @@
+# [1.3.0](https://github.com/salesforcecli/plugin-marketplace/compare/1.2.26...1.3.0) (2024-10-21)
+
+### Bug Fixes
+
+- update new table and dependencies ([c854cb0](https://github.com/salesforcecli/plugin-marketplace/commit/c854cb0aae3f81a3fb542dcfc8792216bc0806e0))
+
+### Features
+
+- remove deprecated sfdx-essentials ([d658b1a](https://github.com/salesforcecli/plugin-marketplace/commit/d658b1a767ffdf2aa0f1441bf28fbe278685c6c6))
+
 ## [1.2.26](https://github.com/salesforcecli/plugin-marketplace/compare/1.2.25...1.2.26) (2024-09-23)
 
 ### Bug Fixes
