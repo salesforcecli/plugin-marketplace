@@ -18,7 +18,6 @@ export const packages = [
   'aura-helper-sfdx',
   'sfdx-browserforce-plugin',
   'sfdx-plugin-source-read',
-  'sfdx-essentials',
   'lightning-flow-scanner',
   '@jayree/sfdx-plugin-manifest',
   '@jayree/sfdx-plugin-org',
