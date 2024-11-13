@@ -614,20 +614,12 @@
     "@smithy/types" "^3.6.0"
     tslib "^2.6.2"
 
-"@aws-sdk/types@3.686.0":
+"@aws-sdk/types@3.686.0", "@aws-sdk/types@^3.222.0":
   version "3.686.0"
   resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.686.0.tgz#01aa5307c727de9e69969c538f99ae8b53f1074f"
   integrity sha512-xFnrb3wxOoJcW2Xrh63ZgFo5buIu9DF7bOHnwoUxHdNpUXicUh0AHw85TjXxyxIAd0d1psY/DU7QHoNI3OswgQ==
   dependencies:
     "@smithy/types" "^3.6.0"
-    tslib "^2.6.2"
-
-"@aws-sdk/types@^3.222.0":
-  version "3.609.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.609.0.tgz#06b39d799c9f197a7b43670243e8e78a3bf7d6a5"
-  integrity sha512-+Tqnh9w0h2LcrUsdXyT1F8mNhXz+tVYBtP19LpeEGntmvHwa2XzvLUCWpoIAIVsHp5+HdB2X9Sn0KAtmbFXc2Q==
-  dependencies:
-    "@smithy/types" "^3.3.0"
     tslib "^2.6.2"
 
 "@aws-sdk/util-arn-parser@3.679.0":
@@ -1103,26 +1095,7 @@
     wrap-ansi "^6.2.0"
     yoctocolors-cjs "^2.1.2"
 
-"@inquirer/core@^9.0.8":
-  version "9.0.10"
-  resolved "https://registry.yarnpkg.com/@inquirer/core/-/core-9.0.10.tgz#4270191e2ad3bea6223530a093dd9479bcbc7dd0"
-  integrity sha512-TdESOKSVwf6+YWDz8GhS6nKscwzkIyakEzCLJ5Vh6O3Co2ClhCJ0A4MG909MUWfaWdpJm7DE45ii51/2Kat9tA==
-  dependencies:
-    "@inquirer/figures" "^1.0.5"
-    "@inquirer/type" "^1.5.2"
-    "@types/mute-stream" "^0.0.4"
-    "@types/node" "^22.1.0"
-    "@types/wrap-ansi" "^3.0.0"
-    ansi-escapes "^4.3.2"
-    cli-spinners "^2.9.2"
-    cli-width "^4.1.0"
-    mute-stream "^1.0.0"
-    signal-exit "^4.1.0"
-    strip-ansi "^6.0.1"
-    wrap-ansi "^6.2.0"
-    yoctocolors-cjs "^2.1.2"
-
-"@inquirer/core@^9.1.0":
+"@inquirer/core@^9.0.8", "@inquirer/core@^9.1.0":
   version "9.2.1"
   resolved "https://registry.yarnpkg.com/@inquirer/core/-/core-9.2.1.tgz#677c49dee399c9063f31e0c93f0f37bddc67add1"
   integrity sha512-F2VBt7W/mwqEU4bL0RnHNZmC/OxzNx9cOYxHqnXX3MP6ruYvZUZAW9imgN9+h/uBT/oP8Gh888J2OZSbjSeWcg==
@@ -1158,12 +1131,7 @@
     "@inquirer/type" "^3.0.0"
     yoctocolors-cjs "^2.1.2"
 
-"@inquirer/figures@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@inquirer/figures/-/figures-1.0.5.tgz#57f9a996d64d3e3345d2a3ca04d36912e94f8790"
-  integrity sha512-79hP/VWdZ2UVc9bFGJnoQ/lQMpL74mGgzSYX1xUqCVk7/v73vJCMw1VuyWN1jGkZ9B3z7THAbySqGbCNefcjfA==
-
-"@inquirer/figures@^1.0.6", "@inquirer/figures@^1.0.7":
+"@inquirer/figures@^1.0.5", "@inquirer/figures@^1.0.6", "@inquirer/figures@^1.0.7":
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/@inquirer/figures/-/figures-1.0.7.tgz#d050ccc0eabfacc0248c4ff647a9dfba1b01594b"
   integrity sha512-m+Trk77mp54Zma6xLkLuY+mvanPxlE4A7yNKs2HBiyZ4UkVs28Mv5c/pgWrHeInx+USHeX/WEPzjrWrcJiQgjw==
@@ -1267,14 +1235,7 @@
     ansi-escapes "^4.3.2"
     yoctocolors-cjs "^2.1.2"
 
-"@inquirer/type@^1.5.1", "@inquirer/type@^1.5.2":
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/@inquirer/type/-/type-1.5.2.tgz#15f5e4a4dae02c4203650cb07c8a000cdd423939"
-  integrity sha512-w9qFkumYDCNyDZmNQjf/n6qQuvQ4dMC3BJesY4oF+yr0CxR5vxujflAVeIcS6U336uzi9GM0kAfZlLrZ9UTkpA==
-  dependencies:
-    mute-stream "^1.0.0"
-
-"@inquirer/type@^1.5.3":
+"@inquirer/type@^1.5.1", "@inquirer/type@^1.5.3":
   version "1.5.5"
   resolved "https://registry.yarnpkg.com/@inquirer/type/-/type-1.5.5.tgz#303ea04ce7ad2e585b921b662b3be36ef7b4f09b"
   integrity sha512-MzICLu4yS7V8AA61sANROZ9vT1H3ooca5dSmI1FjZkzq7o/koMsRfQSzRtFo+F3Ao4Sf1C0bpLKejpKB/+j6MA==
@@ -1553,10 +1514,10 @@
   resolved "https://registry.yarnpkg.com/@salesforce/dev-config/-/dev-config-4.3.1.tgz#4dac8245df79d675258b50e1d24e8c636eaa5e10"
   integrity sha512-rO6axodoRF2SA1kknGttIWuL7HhIwSmweGlBzM8y2m5TH8DeIv4xsqYc8Cu+SrR3JT1FN4nh6XgrogI83AJfKg==
 
-"@salesforce/dev-scripts@^10.2.10":
-  version "10.2.10"
-  resolved "https://registry.yarnpkg.com/@salesforce/dev-scripts/-/dev-scripts-10.2.10.tgz#6aca3c6a0926b5ed0710d1f21a940687ff994e58"
-  integrity sha512-4vYRV5PvssKWfsnOOAXDvYfHaj2M3bCprlGcZBGnPAi52cNzoj9GcOmC1RRrPdQmHL4vWZvSiqgRgVLKQQdfkw==
+"@salesforce/dev-scripts@^10.2.11":
+  version "10.2.11"
+  resolved "https://registry.yarnpkg.com/@salesforce/dev-scripts/-/dev-scripts-10.2.11.tgz#7f041c258bf8588f9847115cc7ad5a59b9865232"
+  integrity sha512-LyX8njw21aKsDbpKDDJwtjX2n+V2OvS3vLg9zXLYlZvy8c2Lu8TfKSsXHS7jGhRLkBEYkJ4cJR+ClHuB2xo81A==
   dependencies:
     "@commitlint/cli" "^17.1.2"
     "@commitlint/config-conventional" "^17.8.1"
@@ -2060,13 +2021,6 @@
     "@smithy/util-stream" "^3.2.1"
     tslib "^2.6.2"
 
-"@smithy/types@^3.3.0":
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/@smithy/types/-/types-3.3.0.tgz#fae037c733d09bc758946a01a3de0ef6e210b16b"
-  integrity sha512-IxvBBCTFDHbVoK7zIxqA1ZOdc4QfM5HM7rGleCuHi7L1wnKv5Pn69xXJQ9hgxH60ZVygH9/JG0jRgtUncE3QUA==
-  dependencies:
-    tslib "^2.6.2"
-
 "@smithy/types@^3.6.0":
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/@smithy/types/-/types-3.6.0.tgz#03a52bfd62ee4b7b2a1842c8ae3ada7a0a5ff3a4"
@@ -2321,10 +2275,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/node@*", "@types/node@^22.1.0":
-  version "22.4.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.4.0.tgz#c295fe1d6f5f58916cc61dbef8cf65b5b9b71de9"
-  integrity sha512-49AbMDwYUz7EXxKU/r7mXOsxwFr4BYbvB7tWYxVuLdb2ibd30ijjXINSMAHiEEZk5PCRBmW1gUeisn2VMKt3cQ==
+"@types/node@*", "@types/node@^22.5.5":
+  version "22.7.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.7.6.tgz#3ec3e2b071e136cd11093c19128405e1d1f92f33"
+  integrity sha512-/d7Rnj0/ExXDMcioS78/kf1lMzYk4BZV8MZGTBKzTGZ6/406ukkbYlIsZmMPhcR5KlkunDHQLrtAVmSq7r+mSw==
   dependencies:
     undici-types "~6.19.2"
 
@@ -2339,13 +2293,6 @@
   integrity sha512-LX84pRJ+evD2e2nrgYCHObGWkiQJ1mL+meAgbvnwk/US6vmMY7S2ygBTGV2Jw91s9vUsLSXeDEkUHZIJGLrhsg==
   dependencies:
     undici-types "~5.26.4"
-
-"@types/node@^22.5.5":
-  version "22.7.6"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.7.6.tgz#3ec3e2b071e136cd11093c19128405e1d1f92f33"
-  integrity sha512-/d7Rnj0/ExXDMcioS78/kf1lMzYk4BZV8MZGTBKzTGZ6/406ukkbYlIsZmMPhcR5KlkunDHQLrtAVmSq7r+mSw==
-  dependencies:
-    undici-types "~6.19.2"
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.3"
