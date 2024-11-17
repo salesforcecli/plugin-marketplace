@@ -1,3 +1,9 @@
+## [1.3.6](https://github.com/salesforcecli/plugin-marketplace/compare/1.3.5...1.3.6) (2024-11-17)
+
+### Bug Fixes
+
+- **deps:** bump cross-spawn from 7.0.3 to 7.0.5 ([2bd6338](https://github.com/salesforcecli/plugin-marketplace/commit/2bd6338954808e6c3ead1c547229986b75e450ce))
+
 ## [1.3.5](https://github.com/salesforcecli/plugin-marketplace/compare/1.3.4...1.3.5) (2024-11-17)
 
 ### Bug Fixes
