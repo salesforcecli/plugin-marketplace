@@ -20,6 +20,7 @@ export default class PluginsDiscover extends SfCommand<DiscoverResults> {
 
   public async run(): Promise<DiscoverResults> {
     await this.parse(PluginsDiscover);
+    this.spinner.start('Fetching details for plugins');
     const results = shared.transform(await shared.query(packages)).map(limitJson);
 
     this.table({
@@ -39,6 +40,7 @@ export default class PluginsDiscover extends SfCommand<DiscoverResults> {
       ],
       overflow: 'wrap',
     });
+    this.spinner.stop();
     this.log(); // Add a blank line before the disclaimer
     this.warn(messages.getMessage('disclaimer'));
     return results;
