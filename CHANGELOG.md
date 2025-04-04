@@ -1,3 +1,10 @@
+## [1.3.8](https://github.com/salesforcecli/plugin-marketplace/compare/1.3.7...1.3.8) (2025-04-04)
+
+### Bug Fixes
+
+- add a spinner to the output ([f58e05d](https://github.com/salesforcecli/plugin-marketplace/commit/f58e05d764d748af3c8fc3bb96537299c43a84a6))
+- fixed this by prompting and cursor ([cd63b61](https://github.com/salesforcecli/plugin-marketplace/commit/cd63b6134e4488e84a33764b8f6eff97d19ba651))
+
 ## [1.3.7](https://github.com/salesforcecli/plugin-marketplace/compare/1.3.6...1.3.7) (2024-11-24)
 
 ### Bug Fixes
