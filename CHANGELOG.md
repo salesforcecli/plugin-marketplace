@@ -1,3 +1,10 @@
+## [1.3.9](https://github.com/salesforcecli/plugin-marketplace/compare/1.3.8...1.3.9) (2026-02-11)
+
+### Bug Fixes
+
+- bump dependencies and update license for 2026 ([84a344c](https://github.com/salesforcecli/plugin-marketplace/commit/84a344cbb673a8a5b9f3cfb99b6bdac686872b2b))
+- clean the lock file ([83dcce8](https://github.com/salesforcecli/plugin-marketplace/commit/83dcce8bce470de660fb453ae8bbaf40898adc40))
+
 ## [1.3.8](https://github.com/salesforcecli/plugin-marketplace/compare/1.3.7...1.3.8) (2025-04-04)
 
 ### Bug Fixes
