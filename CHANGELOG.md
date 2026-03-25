@@ -1,3 +1,9 @@
+## [1.3.11](https://github.com/salesforcecli/plugin-marketplace/compare/1.3.10...1.3.11) (2026-03-25)
+
+### Bug Fixes
+
+- **deps:** bump flatted from 3.3.3 to 3.4.2 ([8df374e](https://github.com/salesforcecli/plugin-marketplace/commit/8df374e43eec9019fa87497915aa77609ed5086d))
+
 ## [1.3.10](https://github.com/salesforcecli/plugin-marketplace/compare/1.3.9...1.3.10) (2026-02-11)
 
 ### Bug Fixes
