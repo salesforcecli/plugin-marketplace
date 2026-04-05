@@ -1,3 +1,9 @@
+## [1.3.15](https://github.com/salesforcecli/plugin-marketplace/compare/1.3.14...1.3.15) (2026-04-05)
+
+### Bug Fixes
+
+- **deps:** bump lodash from 4.17.23 to 4.18.1 ([aa95d6f](https://github.com/salesforcecli/plugin-marketplace/commit/aa95d6fee8868e5b271f357ea301eee144e9916a))
+
 ## [1.3.14](https://github.com/salesforcecli/plugin-marketplace/compare/1.3.13...1.3.14) (2026-03-27)
 
 ### Bug Fixes
