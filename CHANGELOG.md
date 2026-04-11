@@ -1,3 +1,9 @@
+## [1.3.17](https://github.com/salesforcecli/plugin-marketplace/compare/1.3.16...1.3.17) (2026-04-11)
+
+### Bug Fixes
+
+- **deps:** bump basic-ftp from 5.2.1 to 5.2.2 ([0f7c43c](https://github.com/salesforcecli/plugin-marketplace/commit/0f7c43cac777eb5ee94cb4f96e82a51725e21f9f))
+
 ## [1.3.16](https://github.com/salesforcecli/plugin-marketplace/compare/1.3.15...1.3.16) (2026-04-09)
 
 ### Bug Fixes
