@@ -35,4 +35,5 @@ export const packages = [
   'sfdx-plugin-update-notifier',
   '@cristiand391/sf-plugin-fzf-cmp',
   'kc-sf-plugin',
+  'sf-aidev'
 ];
