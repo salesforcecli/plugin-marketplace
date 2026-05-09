@@ -1,3 +1,9 @@
+## [1.3.24](https://github.com/salesforcecli/plugin-marketplace/compare/1.3.23...1.3.24) (2026-05-09)
+
+### Bug Fixes
+
+- **deps:** bump fast-xml-builder from 1.1.4 to 1.2.0 ([5519e5a](https://github.com/salesforcecli/plugin-marketplace/commit/5519e5afa63780bcf8e794a0fdd284f33e6b612d))
+
 ## [1.3.23](https://github.com/salesforcecli/plugin-marketplace/compare/1.3.22...1.3.23) (2026-05-09)
 
 ### Bug Fixes
