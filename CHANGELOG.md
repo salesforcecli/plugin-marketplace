@@ -1,3 +1,9 @@
+## [1.3.27](https://github.com/salesforcecli/plugin-marketplace/compare/1.3.26...1.3.27) (2026-05-24)
+
+### Bug Fixes
+
+- **deps:** bump ws from 8.19.0 to 8.21.0 ([8abb7ec](https://github.com/salesforcecli/plugin-marketplace/commit/8abb7ec796eba421fb37140afeea2cd79689707a))
+
 ## [1.3.26](https://github.com/salesforcecli/plugin-marketplace/compare/1.3.25...1.3.26) (2026-05-10)
 
 ### Bug Fixes
