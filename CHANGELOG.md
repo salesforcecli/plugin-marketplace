@@ -1,3 +1,9 @@
+## [1.3.34](https://github.com/salesforcecli/plugin-marketplace/compare/1.3.33...1.3.34) (2026-06-17)
+
+### Bug Fixes
+
+- **deps:** bump form-data from 4.0.5 to 4.0.6 ([74c36f5](https://github.com/salesforcecli/plugin-marketplace/commit/74c36f5beda3e27e00d09f5c6abb7a9f43c75ff2))
+
 ## [1.3.33](https://github.com/salesforcecli/plugin-marketplace/compare/1.3.32...1.3.33) (2026-06-17)
 
 ### Bug Fixes
