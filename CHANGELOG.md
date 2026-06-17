@@ -1,3 +1,9 @@
+## [1.3.33](https://github.com/salesforcecli/plugin-marketplace/compare/1.3.32...1.3.33) (2026-06-17)
+
+### Bug Fixes
+
+- **deps:** bump @babel/core from 7.29.0 to 7.29.7 ([c6398a3](https://github.com/salesforcecli/plugin-marketplace/commit/c6398a3ef23eee0a6d3dfe06f6220a6ef4e371e2))
+
 ## [1.3.32](https://github.com/salesforcecli/plugin-marketplace/compare/1.3.31...1.3.32) (2026-06-17)
 
 ### Bug Fixes
