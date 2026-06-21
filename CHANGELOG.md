@@ -1,3 +1,9 @@
+## [1.3.35](https://github.com/salesforcecli/plugin-marketplace/compare/1.3.34...1.3.35) (2026-06-21)
+
+### Bug Fixes
+
+- **deps:** bump @salesforce/core from 8.31.1 to 8.31.2 ([e61c973](https://github.com/salesforcecli/plugin-marketplace/commit/e61c97325a9f3a6adaee6ba77a5d52d4ac5ecf6d))
+
 ## [1.3.34](https://github.com/salesforcecli/plugin-marketplace/compare/1.3.33...1.3.34) (2026-06-17)
 
 ### Bug Fixes
