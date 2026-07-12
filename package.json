@@ -9,7 +9,7 @@
   "dependencies": {
     "@salesforce/core": "^8.32.2",
     "@salesforce/kit": "^3.2.4",
-    "@salesforce/sf-plugins-core": "^12.2.25",
+    "@salesforce/sf-plugins-core": "^12.2.26",
     "got": "^13.0.0",
     "proxy-agent": "^6.5.0"
   },
