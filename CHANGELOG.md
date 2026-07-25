@@ -1,3 +1,9 @@
+## [1.3.42](https://github.com/salesforcecli/plugin-marketplace/compare/1.3.41...1.3.42) (2026-07-25)
+
+### Bug Fixes
+
+- **deps:** bump linkify-it from 5.0.1 to 5.0.2 ([7c06d69](https://github.com/salesforcecli/plugin-marketplace/commit/7c06d6922ada59010f7caf909da374500725fb21))
+
 ## [1.3.41](https://github.com/salesforcecli/plugin-marketplace/compare/1.3.40...1.3.41) (2026-07-19)
 
 ### Bug Fixes
