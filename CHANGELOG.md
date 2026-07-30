@@ -1,3 +1,11 @@
+# [2.0.0](https://github.com/salesforcecli/plugin-marketplace/compare/1.3.44...2.0.0) (2026-07-30)
+
+- feat!: require Node >=22, drop EOL Node versions @W-23480655@ ([8d8aba7](https://github.com/salesforcecli/plugin-marketplace/commit/8d8aba70683ce0923052fe105e1b141a17d5f8c2))
+
+### BREAKING CHANGES
+
+- engines.node raised to >=22.0.0, dropping support for Node 18 and 20
+
 ## [1.3.44](https://github.com/salesforcecli/plugin-marketplace/compare/1.3.43...1.3.44) (2026-07-26)
 
 ### Bug Fixes
