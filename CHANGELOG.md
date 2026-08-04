@@ -1,3 +1,9 @@
+## [2.0.1](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.0...2.0.1) (2026-08-04)
+
+### Bug Fixes
+
+- **deps:** bump ip-address from 10.2.0 to 10.4.0 ([7b5b4c6](https://github.com/salesforcecli/plugin-marketplace/commit/7b5b4c62c1b83bed98db3cb8ad15ba5d831d62a5))
+
 # [2.0.0](https://github.com/salesforcecli/plugin-marketplace/compare/1.3.44...2.0.0) (2026-07-30)
 
 - feat!: require Node >=22, drop EOL Node versions @W-23480655@ ([8d8aba7](https://github.com/salesforcecli/plugin-marketplace/commit/8d8aba70683ce0923052fe105e1b141a17d5f8c2))
