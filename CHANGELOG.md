@@ -1,3 +1,9 @@
+## [2.0.4](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.3...2.0.4) (2026-08-09)
+
+### Bug Fixes
+
+- **deps:** bump @salesforce/core from 9.0.0 to 9.1.0 ([c0eb08e](https://github.com/salesforcecli/plugin-marketplace/commit/c0eb08e34c66d202d5f69a9ee4187bc4e184b837))
+
 ## [2.0.3](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.2...2.0.3) (2026-08-04)
 
 ### Bug Fixes
