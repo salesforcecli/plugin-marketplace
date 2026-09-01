@@ -1,3 +1,9 @@
+## [2.0.6](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.5...2.0.6) (2026-09-01)
+
+### Bug Fixes
+
+- upgrade @oclif/core to v5 @W-23512455@ ([#588](https://github.com/salesforcecli/plugin-marketplace/issues/588)) ([03d3093](https://github.com/salesforcecli/plugin-marketplace/commit/03d30939bc7e0381500a578c86b9f1f6c9992bc7))
+
 ## [2.0.5](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.4...2.0.5) (2026-08-16)
 
 ### Bug Fixes
