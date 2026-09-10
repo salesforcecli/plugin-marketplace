@@ -79,7 +79,7 @@ export const query = async (packages: string[]): Promise<Array<[NpmInfo, StarInf
       ),
     ]);
 
-    results.push(result as [NpmInfo, StarInfo, SearchInfo]);
+    results.push(result);
     // Add a small delay between packages to avoid rate limiting
     // eslint-disable-next-line no-await-in-loop
     await sleep(100);
