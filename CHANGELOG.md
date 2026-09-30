@@ -1,3 +1,9 @@
+## [2.0.7](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.6...2.0.7) (2026-09-30)
+
+### Bug Fixes
+
+- **deps:** bump ip-address from 10.4.0 to 10.7.2 ([f189762](https://github.com/salesforcecli/plugin-marketplace/commit/f18976207f18fee431c68a58403d35fb57cb890b))
+
 ## [2.0.6](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.5...2.0.6) (2026-09-01)
 
 ### Bug Fixes
