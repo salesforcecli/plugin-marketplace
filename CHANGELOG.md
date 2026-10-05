@@ -1,3 +1,9 @@
+## [2.0.8](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.7...2.0.8) (2026-10-05)
+
+### Bug Fixes
+
+- **deps:** bump fast-uri from 3.1.5 to 3.1.8 ([4bcb5e6](https://github.com/salesforcecli/plugin-marketplace/commit/4bcb5e68119be2df40f4f4a0142a673e21a52055))
+
 ## [2.0.7](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.6...2.0.7) (2026-09-30)
 
 ### Bug Fixes
