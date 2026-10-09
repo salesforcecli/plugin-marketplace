@@ -1,3 +1,9 @@
+## [2.0.10](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.9...2.0.10) (2026-10-09)
+
+### Bug Fixes
+
+- **deps:** bump source-map-js from 1.2.1 to 1.2.2 ([ffa726e](https://github.com/salesforcecli/plugin-marketplace/commit/ffa726e8cab3d623e443f89e7e47a950907e5624))
+
 ## [2.0.9](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.8...2.0.9) (2026-10-07)
 
 ### Bug Fixes
