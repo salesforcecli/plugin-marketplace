@@ -1,3 +1,9 @@
+## [2.0.11](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.10...2.0.11) (2026-10-09)
+
+### Bug Fixes
+
+- **deps:** bump handlebars from 4.7.9 to 4.7.10 ([016bc54](https://github.com/salesforcecli/plugin-marketplace/commit/016bc542b7e2140882df2d1a631c2675202494bf))
+
 ## [2.0.10](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.9...2.0.10) (2026-10-09)
 
 ### Bug Fixes
