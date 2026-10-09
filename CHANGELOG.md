@@ -1,3 +1,9 @@
+## [2.0.12](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.11...2.0.12) (2026-10-09)
+
+### Bug Fixes
+
+- **deps:** bump fast-copy from 3.0.2 to 3.1.0 ([2c25c8d](https://github.com/salesforcecli/plugin-marketplace/commit/2c25c8da2370036bab5a70f3670181c749a72020))
+
 ## [2.0.11](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.10...2.0.11) (2026-10-09)
 
 ### Bug Fixes
