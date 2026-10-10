@@ -1399,10 +1399,10 @@
   dependencies:
     "@salesforce/ts-types" "^3.0.0"
 
-"@salesforce/plugin-command-reference@^3.1.133":
-  version "3.1.133"
-  resolved "https://registry.yarnpkg.com/@salesforce/plugin-command-reference/-/plugin-command-reference-3.1.133.tgz#3d623a10edd94205202213ae9fb85f9f954c3ba4"
-  integrity sha512-OYsQNTKKD/+IAWmYcglskYWbRNtbd5B/GyhiQjEeox/XV307wXdeNwbS9sLouRZwSqszpJyN+VhsDEHGDfXyZQ==
+"@salesforce/plugin-command-reference@^3.1.134":
+  version "3.1.134"
+  resolved "https://registry.yarnpkg.com/@salesforce/plugin-command-reference/-/plugin-command-reference-3.1.134.tgz#3917fda7293ac00540edaef2e0024e439f698756"
+  integrity sha512-2U4TvxzkikI8daDpKqthNL7t7b2HcIz8Pu+K/KQ3XQwnOGCDYu9kWkgDfaYu7Pm+i3AXu12muVgRkqKKgpwddw==
   dependencies:
     "@oclif/core" "^5.0.0"
     "@salesforce/core" "^9.1.9"
@@ -2216,12 +2216,7 @@ base64url@^3.0.1:
   resolved "https://registry.yarnpkg.com/base64url/-/base64url-3.0.1.tgz#6399d572e2bc3f90a9a8b22d5dbb0a32d33f788d"
   integrity sha512-ir1UPr3dkwexU7FdV8qBBbNDRUhMmIekYMFZfi+C/sLNnRESKPl23nB9b2pltqfOQNnGzsDdId90AEtG5tCx4A==
 
-baseline-browser-mapping@^2.11.20:
-  version "2.11.21"
-  resolved "https://registry.yarnpkg.com/baseline-browser-mapping/-/baseline-browser-mapping-2.11.21.tgz#99af73cb8e54007e4f5345e132278e26c2662f2c"
-  integrity sha512-uh8vpY/1/YyFkunIDFH/12p7/7VdPKA1hejMVEbdkEaWnUz0Hesvx5EbiU6XxjyHZIOju+ZMbQJkRh+es3/spQ==
-
-baseline-browser-mapping@^2.9.0:
+baseline-browser-mapping@^2.11.20, baseline-browser-mapping@^2.9.0:
   version "2.11.21"
   resolved "https://registry.yarnpkg.com/baseline-browser-mapping/-/baseline-browser-mapping-2.11.21.tgz#99af73cb8e54007e4f5345e132278e26c2662f2c"
   integrity sha512-uh8vpY/1/YyFkunIDFH/12p7/7VdPKA1hejMVEbdkEaWnUz0Hesvx5EbiU6XxjyHZIOju+ZMbQJkRh+es3/spQ==
