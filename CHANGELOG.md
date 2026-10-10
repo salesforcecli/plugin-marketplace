@@ -1,3 +1,9 @@
+## [2.0.14](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.13...2.0.14) (2026-10-10)
+
+### Bug Fixes
+
+- **deps:** bump baseline-browser-mapping from 2.9.19 to 2.11.21 ([e8221f9](https://github.com/salesforcecli/plugin-marketplace/commit/e8221f955f27d95cd3c109ac8d3a81a31e0c24fa))
+
 ## [2.0.13](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.12...2.0.13) (2026-10-09)
 
 ### Bug Fixes
