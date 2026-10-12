@@ -1,3 +1,9 @@
+## [2.0.17](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.16...2.0.17) (2026-10-12)
+
+### Bug Fixes
+
+- **deps:** bump browserslist from 4.28.1 to 4.28.9 ([39d38d3](https://github.com/salesforcecli/plugin-marketplace/commit/39d38d3c94fe945fade2298130e9d38684c3a786))
+
 ## [2.0.16](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.15...2.0.16) (2026-10-11)
 
 ### Bug Fixes
