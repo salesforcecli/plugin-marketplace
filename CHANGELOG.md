@@ -1,3 +1,9 @@
+## [2.0.19](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.18...2.0.19) (2026-10-22)
+
+### Bug Fixes
+
+- **deps:** bump markdown-it from 14.3.1 to 14.3.3 ([4bb9cda](https://github.com/salesforcecli/plugin-marketplace/commit/4bb9cdae3919b498342bd7627425ed4fb8733396))
+
 ## [2.0.18](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.17...2.0.18) (2026-10-18)
 
 ### Bug Fixes
