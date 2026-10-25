@@ -1,3 +1,9 @@
+## [2.0.21](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.20...2.0.21) (2026-10-25)
+
+### Bug Fixes
+
+- **deps:** bump undici from 8.11.2 to 8.12.3 ([633785e](https://github.com/salesforcecli/plugin-marketplace/commit/633785e5bb26463e168ec993718cae8e6f170210))
+
 ## [2.0.20](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.19...2.0.20) (2026-10-25)
 
 ### Bug Fixes
