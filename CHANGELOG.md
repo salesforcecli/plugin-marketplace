@@ -1,3 +1,9 @@
+## [2.0.20](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.19...2.0.20) (2026-10-25)
+
+### Bug Fixes
+
+- **deps:** bump zod from 4.3.6 to 4.6.7 ([9264623](https://github.com/salesforcecli/plugin-marketplace/commit/926462319d1ad17fd80d31f5003cfa87e340f3fd))
+
 ## [2.0.19](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.18...2.0.19) (2026-10-22)
 
 ### Bug Fixes
