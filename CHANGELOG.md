@@ -1,3 +1,9 @@
+## [2.0.23](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.22...2.0.23) (2026-10-26)
+
+### Bug Fixes
+
+- **deps:** bump ip-address from 10.7.2 to 10.7.5 ([faad215](https://github.com/salesforcecli/plugin-marketplace/commit/faad215fd97f5b8b65b6f8b59a2ee1179dbbf611))
+
 ## [2.0.22](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.21...2.0.22) (2026-10-25)
 
 ### Bug Fixes
