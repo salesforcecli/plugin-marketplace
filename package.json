@@ -14,7 +14,7 @@
     "proxy-agent": "^6.5.0"
   },
   "devDependencies": {
-    "@oclif/plugin-command-snapshot": "^6.0.5",
+    "@oclif/plugin-command-snapshot": "^6.0.6",
     "@salesforce/cli-plugins-testkit": "^5.3.78",
     "@salesforce/dev-scripts": "^14.0.0",
     "@salesforce/plugin-command-reference": "^3.1.142",
