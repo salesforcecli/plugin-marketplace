@@ -1,3 +1,9 @@
+## [2.0.24](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.23...2.0.24) (2026-11-01)
+
+### Bug Fixes
+
+- **deps:** bump brace-expansion from 1.1.12 to 1.1.21 ([881db49](https://github.com/salesforcecli/plugin-marketplace/commit/881db49aaeb3c04ae05d3ab450926fa63cf39e0e))
+
 ## [2.0.23](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.22...2.0.23) (2026-10-26)
 
 ### Bug Fixes
