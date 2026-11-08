@@ -1,3 +1,9 @@
+## [2.0.27](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.26...2.0.27) (2026-11-08)
+
+### Bug Fixes
+
+- **deps:** bump picomatch from 2.3.1 to 2.3.2 ([95e808e](https://github.com/salesforcecli/plugin-marketplace/commit/95e808e55971f4fdfd3902e9ced4d6d7689d8f63))
+
 ## [2.0.26](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.25...2.0.26) (2026-11-08)
 
 ### Bug Fixes
