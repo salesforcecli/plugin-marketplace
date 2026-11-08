@@ -1,3 +1,9 @@
+## [2.0.26](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.25...2.0.26) (2026-11-08)
+
+### Bug Fixes
+
+- **deps:** bump js-yaml from 3.14.2 to 3.15.2 ([3b8b0cb](https://github.com/salesforcecli/plugin-marketplace/commit/3b8b0cb658cd0c771d6dbc5832eb45f7368a084d))
+
 ## [2.0.25](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.24...2.0.25) (2026-11-02)
 
 ### Bug Fixes
