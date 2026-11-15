@@ -1,3 +1,9 @@
+## [2.0.29](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.28...2.0.29) (2026-11-15)
+
+### Bug Fixes
+
+- **deps:** bump @salesforce/kit from 4.0.9 to 4.0.10 ([c25807c](https://github.com/salesforcecli/plugin-marketplace/commit/c25807c99202330663264e3c934ed4ca622eb919))
+
 ## [2.0.28](https://github.com/salesforcecli/plugin-marketplace/compare/2.0.27...2.0.28) (2026-11-09)
 
 ### Bug Fixes
